@@ -1,6 +1,4 @@
 
-Claude
-Server · JS
 // Простой сервер для приёма оплаты Telegram Stars в игре Lemon Clicker.
 // Что он делает:
 // 1. По запросу от игры создаёт счёт (invoice link) через твоего бота.
@@ -106,8 +104,6 @@ app.get('/', (req, res) => res.send('Lemon Clicker payment server is running'));
  
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log('Server started on port ' + PORT));
- 
 
-Ответ Claude завершен
 
 
